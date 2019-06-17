@@ -1,4 +1,5 @@
-# sigma-workshop
+# giffy
+Simple app that accesses giphy api
 
 ## Project setup
 ```
