@@ -11,7 +11,7 @@
       <img
         v-for="result in searchResults"
         :key="result.id"
-        :src="result.images.fixed_width.url"
+        :src="result.images.fixed_height.url"
         class="search-results__item"
       />
     </div>
