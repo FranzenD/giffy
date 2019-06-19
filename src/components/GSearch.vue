@@ -12,7 +12,7 @@
         v-for="result in searchResults"
         :key="result.id"
         :src="result.images.fixed_width.url"
-        class="search-result__item"
+        class="search-results__item"
       >
     </div>
   </div>
@@ -54,9 +54,10 @@ export default {
     outline: 0;
   }
 }
-.search-result {
+.search-results {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 
   &__item {
     padding: 5px;
