@@ -6,14 +6,14 @@
       type="search"
       placeholder="Search for gif"
       class="search-field"
-    >
+    />
     <div class="search-results">
       <img
         v-for="result in searchResults"
         :key="result.id"
         :src="result.images.fixed_width.url"
         class="search-results__item"
-      >
+      />
     </div>
   </div>
 </template>
@@ -39,7 +39,7 @@ export default {
 };
 </script>
 
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 .search-field {
   -webkit-appearance: none;
   width: 100%;
