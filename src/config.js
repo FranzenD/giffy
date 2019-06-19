@@ -1,4 +1,4 @@
-const apiKey = 'add api key here!';
+const apiKey = 'blajaja';
 
 export default {
   apiKey
