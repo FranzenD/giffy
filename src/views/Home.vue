@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <g-search></g-search>
+    <img alt="Vue logo" src="../assets/logo.png">
+    <g-search/>
   </div>
 </template>
 
